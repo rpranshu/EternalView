@@ -5,18 +5,18 @@ from termcolor import colored
 from urllib2 import *
 
 def eternal():
-	print colored('   ▄████████     ███        ▄████████    ▄████████ ███▄▄▄▄      ▄████████   ▄█       ' , 'red')
-	print colored('  ███    ███ ▀█████████▄   ███    ███   ███    ███ ███▀▀▀██▄   ███    ███  ███       ' , 'red')
-	print colored('  ███    █▀     ▀███▀▀██   ███    █▀    ███    ███ ███   ███   ███    ███  ███       ' , 'red')
-	print colored(' ▄███▄▄▄         ███   ▀  ▄███▄▄▄      ▄███▄▄▄▄██▀ ███   ███   ███    ███  ███       ' , 'red')
-	print colored('▀▀███▀▀▀         ███     ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   ███   ███ ▀███████████  ███       ' , 'red')
-	print colored('  ███    █▄      ███       ███    █▄  ▀███████████ ███   ███   ███    ███  ███       ' , 'red')
-	print colored('  ███    ███     ███       ███    ███   ███    ███ ███   ███   ███    ███  ███▌    ▄ ' , 'red')
-	print colored('  ██████████    ▄████▀     ██████████   ███    ███  ▀█   █▀    ███    █▀   █████▄▄██ ' , 'red')
+	print colored('   ▄████████     ███        ▄████████    ▄████████ ███▄▄▄▄      ▄████████   ▄█      ' , 'red')
+	print colored('  ███    ███ ▀█████████▄   ███    ███   ███    ███ ███▀▀▀██▄   ███    ███  ███      ' , 'red')
+	print colored('  ███    █▀     ▀███▀▀██   ███    █▀    ███    ███ ███   ███   ███    ███  ███      ' , 'red')
+	print colored(' ▄███▄▄▄         ███   ▀  ▄███▄▄▄      ▄███▄▄▄▄██▀ ███   ███   ███    ███  ███      ' , 'red')
+	print colored('▀▀███▀▀▀         ███     ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   ███   ███ ▀███████████  ███      ' , 'red')
+	print colored('  ███    █▄      ███       ███    █▄  ▀███████████ ███   ███   ███    ███  ███      ' , 'red')
+	print colored('  ███    ███     ███       ███    ███   ███    ███ ███   ███   ███    ███  ███▌    ▄' , 'red')
+	print colored('  ██████████    ▄████▀     ██████████   ███    ███  ▀█   █▀    ███    █▀   █████▄▄██' , 'red')
 	
 print colored('Welcome to EternalView, the all-seeing ᒡ◯ᵔ◯ᒢ information gathering tool!', 'cyan',)
 print (' ')
-print colored('Ideal window size = 84 x 29','white')
+print colored('Ideal window size = 84 x 28','white')
 print (' ')
 print colored('-=A basic tool=-','yellow',attrs=['bold'])
 print (' ')
