@@ -16,7 +16,7 @@ def illuminati():
 	print colored ('      ▀         ▀                                                                                ' , 'red')
 print colored('Welcome to Illuminati, the all-seeing ᒡ◯ᵔ◯ᒢ information gathering tool!', 'cyan',)
 print (' ')
-print colored('Ideal window size = 97 x 24','white')
+print colored('Ideal window size = 97 x 29','white')
 print (' ')
 print colored('-=A basic tool=-','yellow',attrs=['bold'])
 print (' ')
