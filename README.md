@@ -6,8 +6,10 @@
     <li><a href="https://nmap.org/download.html">Nmap</a></li>
     <li>A linux/Unix based system</li>
     </ul>
+<img src= "illuminati/working/illuminait.gif"/>
+    Fig 1. Illuminati in action!
 
-P.S. If u do not have a linux/unix based system, use cygwin in windows             
+<u>P.S. If u do not have a linux/unix based system, use cygwin in windows</u>        
              
  <h2> Features:</h2>
  1. Whois Information<br>
