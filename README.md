@@ -7,11 +7,7 @@
     <li>A linux/Unix based system</li>
     </ul>
 
-P.S. If u do not have a linux/unix based system, use cygwin in windows
-
-<img src ="illuminati.png"/>
-             <p align=center>Fig1. Illuminati in action </p>
-             
+P.S. If u do not have a linux/unix based system, use cygwin in windows             
              
  <h2> Features:</h2>
  1. Whois Information<br>
