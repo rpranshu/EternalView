@@ -6,9 +6,6 @@
     <li><a href="https://nmap.org/download.html">Nmap</a></li>
     <li>A linux/Unix based system</li>
     </ul>
-<--! <img src= "Illuminati/working/illuminati.gif" width ="450" height="255"/><br>
-    Fig 1. EternalView in action!   -->    
-             
  <h2> Features:</h2>
  1. Whois Information<br>
  2. Nslookup<br>
