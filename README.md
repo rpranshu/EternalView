@@ -7,9 +7,7 @@
     <li>A linux/Unix based system</li>
     </ul>
 <img src= "Illuminati/working/illuminati.gif" width ="450" height="255"/><br>
-    Fig 1. Illuminati in action!
-<br>
-<u>P.S. If u do not have a linux/unix based system, use cygwin in windows</u>        
+    Fig 1. Illuminati in action!       
              
  <h2> Features:</h2>
  1. Whois Information<br>
@@ -22,3 +20,6 @@
  8. Nmap Port Scanner<br>
  9. Traceroute<br>
  <u>#10. Dos Attack (Coming up in next update)</u><br>
+
+<br>
+<u>P.S. If u do not have a linux/unix based system, use cygwin in windows</u> 
