@@ -9,5 +9,5 @@
 
 P.S. If u do not have a linux/unix based system, use cygwin in windows
 
-<img src ="https://illuminatiguy.com/illuminati.png"/>
+<img src ="illuminati.png"/>
               Illuminati in action
