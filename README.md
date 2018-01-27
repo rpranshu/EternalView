@@ -1,4 +1,4 @@
-# illuminati
+# Illuminati
 <b>Illuminati is an <i>all in one</i> basic information gathering tool
 <br>
   <h2><b>Prerequisites:<br></h2>
@@ -6,9 +6,9 @@
     <li><a href="https://nmap.org/download.html">Nmap</a></li>
     <li>A linux/Unix based system</li>
     </ul>
-<img src= "Illuminati/working/illuminati.gif" width ="450" height="255"/>
+<img src= "Illuminati/working/illuminati.gif" width ="450" height="255"/><br>
     Fig 1. Illuminati in action!
-
+<br>
 <u>P.S. If u do not have a linux/unix based system, use cygwin in windows</u>        
              
  <h2> Features:</h2>
