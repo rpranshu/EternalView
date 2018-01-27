@@ -1,5 +1,5 @@
-# Illuminati
-<b>Illuminati is an <i>all in one</i> basic information gathering tool
+# EternalView
+<b>EternalView is an <i>all in one</i> basic information gathering tool
 <br>
   <h2><b>Prerequisites:<br></h2>
   <ul type='1'>
@@ -7,7 +7,7 @@
     <li>A linux/Unix based system</li>
     </ul>
 <img src= "Illuminati/working/illuminati.gif" width ="450" height="255"/><br>
-    Fig 1. Illuminati in action!       
+    Fig 1. EternalView in action!       
              
  <h2> Features:</h2>
  1. Whois Information<br>
