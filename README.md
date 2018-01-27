@@ -6,7 +6,7 @@
     <li><a href="https://nmap.org/download.html">Nmap</a></li>
     <li>A linux/Unix based system</li>
     </ul>
-<img src= "Illuminati/working/illuminati.gif"/>
+<img src= "Illuminati/working/illuminati.gif" width ="450" height="255"/>
     Fig 1. Illuminati in action!
 
 <u>P.S. If u do not have a linux/unix based system, use cygwin in windows</u>        
