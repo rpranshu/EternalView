@@ -1,8 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
+from sys import platform
 from termcolor import colored
 from urllib2 import *
+
+if platform == linux or platform == linux2 or platform == "darwin":
+	os.system("resize -s 28 85")
+elif platform == "win32":
+	os.system("mode con cols=85 lines=28")
 
 def eternal():
 	print colored('   ▄████████     ███        ▄████████    ▄████████ ███▄▄▄▄      ▄████████   ▄█      ' , 'red')
