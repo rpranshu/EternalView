@@ -20,6 +20,3 @@
  8. Nmap Port Scanner<br>
  9. Traceroute<br>
  <u>#10. Dos Attack (Coming up in next update)</u><br>
-
-<br>
-<u>P.S. If u do not have a linux/unix based system, use cygwin in windows</u> 
