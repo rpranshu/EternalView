@@ -13,7 +13,7 @@ P.S. If u do not have a linux/unix based system, use cygwin in windows
              <p align=center>Fig1. Illuminati in action </p>
              
              
- <h2> Features:</h2><br>
+ <h2> Features:</h2>
  1. Whois Information<br>
  2. Nslookup<br>
  3. Cloudflare dectection<br>
