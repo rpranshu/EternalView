@@ -17,7 +17,7 @@
   
 ## Features:
 <table border="5" align=center>
-  <tr><th><b>Feature</th><th align=center>Explanation</th></tr>
+  <tr><th>Feature</th><th align=center>Explanation</th></tr>
   <tr><th>Whois Information</th><th>Prints the whois information of the entered web address</th></tr>
   <tr><td>DNS lookup</td><td>Prints the DNS information and web records</td></tr>
   <tr><td>Cloudflare detection</td><td>Tells whether a particular website is powered by cloudflare</td></tr>
