@@ -5,8 +5,15 @@
   - > [Python](https://www.python.org/downloads)
   - > A linux/unix based system
   - > [Nmap](https://nmap.org/download.html)
-  
+ 
  ## How to install: 
+ 
+ - clone through termial :
+  ``` 
+  git clone https://github.com/rpranshu/EternalView.git
+  ```
+  OR
+  - Download directly as zip
   
 ## Features:
 <table border="5" align=center>
