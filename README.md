@@ -3,6 +3,7 @@
 <br>
   <h2><b>Prerequisites:<br></h2>
   <ul type='1'>
+    <li> Python </li>
     <li><a href="https://nmap.org/download.html">Nmap</a></li>
     <li>A linux/Unix based system</li>
     </ul>
