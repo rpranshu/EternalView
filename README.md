@@ -17,7 +17,7 @@
  8. Nmap Port Scanner<br>
  9. Traceroute<br>
  
- <h3> Future updates:</h3>
+ <h2> Future updates:</h2>
  1. Support for windows<br>
  2. DOS script integration<br>
  3. Firewall detection and evasion<br>
