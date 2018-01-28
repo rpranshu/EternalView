@@ -7,13 +7,18 @@
   - > [Nmap](https://nmap.org/download.html)
  
  ## How to install: 
- 
+ 1. Download
  - clone through termial :
   ``` 
   git clone https://github.com/rpranshu/EternalView.git
   ```
   OR
   - Download directly as zip
+  2. Run
+  -in terminal
+  ```
+  python eternalview.py
+  ```
   
 ## Features:
 <table border="5" align=center>
