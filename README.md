@@ -1,12 +1,11 @@
 # EternalView
-<b>EternalView is an <i>all in one</i> basic information gathering tool
-<br>
-  <b><h2> Prerequisites:</h2>
+<b>EternalView is an <i>all in one</i> basic information gathering tool<br>
+<h2> Prerequisites:</h2>
   <ul type='1'>
     <li> Python </li>
     <li><a href="https://nmap.org/download.html">Nmap</a></li>
     </ul>
- <h2> Features:</h2>
+<h2> Features:</h2>
  1. Whois Information<br>
  2. Nslookup<br>
  3. Cloudflare dectection<br>
