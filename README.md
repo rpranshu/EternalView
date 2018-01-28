@@ -5,7 +5,6 @@
   <ul type='1'>
     <li> Python </li>
     <li><a href="https://nmap.org/download.html">Nmap</a></li>
-    <li>A linux/Unix based system</li>
     </ul>
  <h2> Features:</h2>
  1. Whois Information<br>
