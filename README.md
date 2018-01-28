@@ -2,7 +2,7 @@
 <b>EternalView is an all in one basic information gathering tool<br>
 <h2> Prerequisites:</h2>
   <ul type='1'>
-  <li><a href ="https://www.python.org/downloads"</a>Python</a> </li>
+  <li><a href ="https://www.python.org/downloads/">Python</a> </li>
     <li><a href="https://nmap.org/download.html">Nmap</a></li>
     </ul>
 <h2> Features:</h2>
