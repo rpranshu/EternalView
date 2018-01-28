@@ -1,15 +1,14 @@
 # EternalView
 **EternalView is an all in one basic information gathering tool**
-##Prerequisites:
-  <ul type='1'>
-  <li><a href ="https://www.python.org/downloads/">Python</a> </li>
-    <li> A linux/unix based system</li>
-  <li><a href="https://nmap.org/download.html">Nmap</a></li>
-    </ul>
+## Prerequisites:
+
+  - > [Python](https://www.python.org/downloads)
+  - > A linux/unix based system
+  - > [Nmap](https://nmap.org/download.html)
   
- ##How to install: 
+ ## How to install: 
   
-##Features:
+## Features:
 <table border="5" align=center>
   <tr><th><b>Feature</th><th align=center>Explanation</th></tr>
   <tr><th>Whois Information</th><th>Prints the whois information of the entered web address</th></tr>
@@ -23,7 +22,7 @@
   <tr><td>Traceroute</td><td>Prints the route and measures the transit delays of packets across a given web/IP address</td></tr>
 </table>
   
-##Future updates:
+## Future updates:
  - Support for windows<br>
  - DOS script integration<br>
  - Firewall detection and evasion<br>
