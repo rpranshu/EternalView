@@ -1,7 +1,7 @@
 # EternalView
 <b>EternalView is an <i>all in one</i> basic information gathering tool
 <br>
-  <h2><b>Prerequisites:</h2><br>
+  </h2>Prerequisites:
   <ul type='1'>
     <li> Python </li>
     <li><a href="https://nmap.org/download.html">Nmap</a></li>
