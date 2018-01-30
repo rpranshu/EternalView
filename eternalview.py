@@ -44,7 +44,7 @@ def opt():
 	#print "10. Attacks"
 opt()
 def view():
-	option = raw_input (' '+'\033[0;41m What would you like to do?:\033[1;m ')
+	option = input (' '+'\033[0;41m What would you like to do?:\033[1;m ')
 	print ' '
         if option == 1:
             ipaddr = raw_input('\033[1;91mDomain address or ip address: \033[1;m')
