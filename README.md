@@ -1,4 +1,4 @@
-# EternalView [![forthebadge](http://forthebadge.com/badges/built-with-swag.svg)](http://forthebadge.com)
+# EternalView [![GitHub release](https://img.shields.io/badge/Built--With-Swag-green.svg?style=flat-square?&colorA=e76b36&?&colorB=d55b33)]()
 
 **EternalView is an all in one basic information gathering tool**
 
