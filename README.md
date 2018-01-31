@@ -1,5 +1,9 @@
-# EternalView
+# EternalView [![forthebadge](http://forthebadge.com/badges/built-with-swag.svg)](http://forthebadge.com)
+
 **EternalView is an all in one basic information gathering tool**
+
+# Update: Python3 alternative is now live! [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)]()
+
 ## Prerequisites:
 
   - > [Python](https://www.python.org/downloads)
