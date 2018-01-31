@@ -2,8 +2,8 @@
 
 **EternalView is an all in one basic information gathering tool**
 
-# Update: 
-- **Python3 alternative is now live! [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)]()
+# Update:  [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)]()
+- *Python3* alternative is now live!
 - Optimised the code in python3
 
 ## Prerequisites:
