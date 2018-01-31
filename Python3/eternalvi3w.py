@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
-import sys
 from sys import platform
 from termcolor import colored
 from urllib.request import urlopen
@@ -38,7 +37,6 @@ def opt():
     print (colored(" * 9. Trace the route       * ",'white',attrs=['bold']))
     print (colored(' * 10. Exit                 *','red',attrs=['bold']))
     print (' ****************************')
-    #print ("10. Attacks")
 opt()
 def view():
     try:
@@ -82,9 +80,7 @@ def view():
                 pass
             else:
                 ipaddr = 'http://' + ipaddr
-            crawl = ipaddr + "/robots.txt"
-            whocrawl = urlopen(crawl).read()
-            print (whocrawl)
+            print (urlopen(ipaddr + "/robots.txt").read())
             opt()
             view()
         if option == 7:
@@ -92,10 +88,8 @@ def view():
             if 'http://' in links or 'https://' in links:
                 pass
             else:
-                links = 'http://' + links
-            associated = "https://api.hackertarget.com/pagelinks/?q=" + links
-            evalassociated = urlopen(associated).read()
-            print (evalassociated)
+                links = 'http://' + links 
+            print (urlopen("https://api.hackertarget.com/pagelinks/?q=" + links).read())
             opt()
             view()
         if option == 8:
@@ -103,13 +97,11 @@ def view():
             opt()
             view()
         if option == 9:
-            trackeval = os.system("traceroute" +' '+ input('\033[1;91mEnter Domain or IP Address: \033[1;m'))
-            print (trackeval)
+            print (os.system("traceroute" +' '+ input('\033[1;91mEnter Domain or IP Address: \033[1;m')))
             opt()
             view()
         if option == 10:
-            if platform == "linux" or "linux2" or "darwin":
-                os.system("exec sleep 0")
+            os.system("exit")
         else:
             print (colored(' '+'██████INVALID OPTION!!██████','red','on_white',attrs=['blink']))
             opt()
