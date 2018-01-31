@@ -25,9 +25,7 @@ print (' ')
 print (colored('Welcome to EternalView, the all-seeing ᒡ◯ᵔ◯ᒢ information gathering tool!', 'cyan',))
 print (' ' )
 def opt():
-    print (' ***********'),
-    print (colored ('MENU','yellow',attrs=['bold'])),
-    print ('***********')
+    print (' ***********',(colored('MENU','yellow',attrs=['bold'])), '***********')
     print (' *                          *')
     print (colored(" * 1. Whois information     * ",'white',attrs=['bold']))
     print (" * 2. DNS Lookup            * ")
@@ -44,34 +42,24 @@ def opt():
 opt()
 def view():
     try:
-        option = input (' '+'\033[0;41m What would you like to do?:\033[1;m')
+        option = eval(input (' '+'\033[0;41m What would you like to do?:\033[1;m'))
         print (' ')
-        if option == 1:
-            ipaddr = raw_input('\033[1;91mDomain address or ip address:\033[1;m')
+        if option == 1: 
             if platform == 'linux' or platform == 'linux2' or platform == 'darwin':
-                whois = "whois"+' '+ipaddr
-                evalwho = os.system(whois)
-                print (evalwho)
+                print (os.system("whois"+' '+input('\033[1;91mDomain address or ip address:\033[1;m')))
             elif platform == 'win32':
-                wwhois = "http://api.hackertarget.com/whois/?q=" + ipaddr
-                evalwwhois = urlopen(wwhois).read()
-                print (evalwwhois)
+                print (urlopen("http://api.hackertarget.com/whois/?q=" + ipaddr).read())
             opt()
             view()
         if option == 2:
-            site = raw_input('\033[1;91mEnter Domain: \033[1;m') 
             if platform == 'linux' or platform == 'linux2' or platform == 'darwin' :
-                ns = "dig" +" "+ site
-                dnseval = os.system(ns)
-                print (dnseval)
+                print (os.system("dig" +" "+ input('\033[1;91mEnter Domain: \033[1;m')))
             if platform == 'win32':
-                wns == 'http://api.hackertarget.com/dnslookup/?q=' + site
-                wdnseval == urlopen(wns).read()
-                print (wdnseval)
+                print (urlopen('http://api.hackertarget.com/dnslookup/?q=' + input('\033[1;91mEnter Domain: \033[1;m')).read())
             opt()
             view()
         if option ==3:
-            site = raw_input('\033[1;91mEnter Domain: \033[1;m')
+            site = input('\033[1;91mEnter Domain: \033[1;m')
             dns = "http://tools.bevhost.com/cgi-bin/dnslookup?data=" + site
             dnseval = urlopen(dns).read()
             if 'cloudflare' in dnseval:
@@ -81,21 +69,15 @@ def view():
             opt()
             view()
         if option == 4:
-            ipaddr = raw_input('\033[1;91mEnter IP Address: \033[1;m')
-            loc = 'curl ipinfo.io/'+ipaddr + '/geo'
-            geoloc = os.system(loc)
-            print (geoloc)
+            print (os.system('curl ipinfo.io/'+input('\033[1;91mEnter IP Address: \033[1;m') + '/geo'))
             opt()
             view()
         if option == 5:
-            ipaddr = raw_input('\033[1;91mEnter Domain or IP Address: \033[1;m')
-            ipheader = 'curl -v '+' '+ipaddr
-            headereval = os.system(ipheader)
-            print (headereval)
+            print (os.system('curl -v '+' '+input('\033[1;91mEnter Domain or IP Address: \033[1;m')))
             opt()
             view()
         if option == 6:
-            ipaddr = raw_input('\033[1;91mEnter Domain: \033[1;m')
+            ipaddr = input('\033[1;91mEnter Domain: \033[1;m')
             if 'http://' in ipaddr or 'https://' in ipaddr:
                 pass
             else:
@@ -106,7 +88,7 @@ def view():
             opt()
             view()
         if option == 7:
-            links = raw_input('\033[1;91mEnter URL: \033[1;m')
+            links = input('\033[1;91mEnter URL: \033[1;m')
             if 'http://' in links or 'https://' in links:
                 pass
             else:
@@ -117,21 +99,17 @@ def view():
             opt()
             view()
         if option == 8:
-            ipaddr = raw_input('\033[1;91mEnter Domain or IP Address: \033[1;m')
-            nmap = 'sudo nmap -O -Pn -p 1-65535 -sS -sV'+ ' ' + ipaddr
-            evalnmap = os.system(nmap)
-            print (evalnmap)
+            print (os.system('sudo nmap -O -Pn -p 1-65535 -sS -sV'+ ' ' + input('\033[1;91mEnter Domain or IP Address: \033[1;m')))
             opt()
             view()
         if option == 9:
-            ipaddr = raw_input('\033[1;91mEnter Domain or IP Address: \033[1;m')
-            track = "traceroute" +' '+ ipaddr
-            trackeval = os.system(track)
+            trackeval = os.system("traceroute" +' '+ input('\033[1;91mEnter Domain or IP Address: \033[1;m'))
             print (trackeval)
             opt()
             view()
         if option == 10:
-            exit()
+            if platform == "linux" or "linux2" or "darwin":
+                os.system("exec sleep 0")
         else:
             print (colored(' '+'██████INVALID OPTION!!██████','red','on_white',attrs=['blink']))
             opt()
@@ -140,7 +118,6 @@ def view():
         print (' ')
         print (colored(' '+'██████PLEASE ENTER A VALID VALUE!!██████','red','on_white',attrs=['blink']))
         print (' ')
-        sys.setrecursionlimit(1)
         opt()
         view()
 view()
