@@ -6,10 +6,13 @@
 ![eternalview in action](https://raw.githubusercontent.com/rpranshu/EternalView/master/res/eternal.png)
 **EternalView in action**
 
+# CAUTION:
+**This tool is purely for educational purposes, don't use it on any website *without* the permission of it's owner.**
+**The user is responsible for his/her actions!**
 
 
 # Update:  [![GitHub release](https://img.shields.io/badge/Release-v2-green.svg?&colorA=024a70&?&colorB=0779b5)]()
-- > **Golden Eye Stress Test (DOS) script now integrated** 
+> **Golden Eye HTTP DOS** script is now integrated
 - *Python3* alternative is now live!
 - **Optimised** the code in **python3**
 
