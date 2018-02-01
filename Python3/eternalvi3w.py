@@ -124,7 +124,10 @@ def view():
             opt()
             view()
         if option == 11:
-            os.system("killall Terminal")
+            if platform == "linux" or "linux2":
+                os.system("exit")
+            elif platform == "darwin":
+                os.system("killall Terminal")
         else:
             print (colored(' '+'██████INVALID OPTION!!██████','red','on_white',attrs=['blink']))
             opt()
