@@ -39,9 +39,9 @@ def opt():
     print colored(" * 7. Associated links      * ",attrs=['bold'])
     print colored(" * 8. Nmap Scan             * ",'red',attrs=['bold'])
     print colored(" * 9. Trace the route       * ",'white',attrs=['bold'])
-    print ' *                          *'
+    print colored(' * 10. HTTP DOS Test        * ','red',attrs=['bold'])
+    print colored(' * 11. Exit                 * ','yellow',attrs=['bold'])
     print ' ****************************'
-	#print "10. Attacks"
 opt()
 def view():
 	option = input (' '+'\033[0;41m What would you like to do?:\033[1;m ')
@@ -119,12 +119,15 @@ def view():
         	opt()
         	view()
         if option == 9:
-            ipaddr = raw_input('\033[1;91mEnter Domain or IP Address: \033[1;m')
-            track = "traceroute" +' '+ ipaddr
-            trackeval = os.system(track)
-            print (trackeval)
+            print (os.system("traceroute" +' '+ raw_input('\033[1;91mEnter Domain or IP Address: \033[1;m')))
             opt()
             view()
+	if option == 10:
+            print(os.system('python goldeneye.py '+input('\033[1;91mEnter Domain or IP Address: \033[1;m')+' -w 50'))
+            opt()
+            view()
+        if option == 11:
+            os.system("exit")
         else:
         	print colored(' '+'██████INVALID OPTION!!██████','red','on_white',attrs=['blink'])
         	opt()
