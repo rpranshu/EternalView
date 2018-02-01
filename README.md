@@ -9,6 +9,7 @@
 
 
 # Update:  [![GitHub release](https://img.shields.io/badge/Release-v2-green.svg?&colorA=024a70&?&colorB=0779b5)]()
+- > **Golden Eye Stress Test (DOS) script now integrated** 
 - *Python3* alternative is now live!
 - **Optimised** the code in **python3**
 
@@ -48,5 +49,4 @@
   
 ## Future updates:
  - Support for windows<br>
- - DOS script integration<br>
  - Firewall detection and evasion<br>
