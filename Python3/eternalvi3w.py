@@ -44,83 +44,62 @@ def view():
         print (' ')
         if option == 1: 
             if platform == 'linux' or platform == 'linux2' or platform == 'darwin':
-                os.system('say Enter the Domain or eyepee address')
                 print (os.system("whois"+' '+input('\033[1;91mDomain address or ip address:\033[1;m')))
-                os.system('say task completed successfully')
             elif platform == 'win32':
                 print (urlopen("http://api.hackertarget.com/whois/?q=" + ipaddr).read())
             opt()
             view()
         if option == 2:
             if platform == 'linux' or platform == 'linux2' or platform == 'darwin' :
-                os.system('say Enter the Domain or eyepee address')
                 print (os.system("dig" +" "+ input('\033[1;91mEnter Domain: \033[1;m')))
-                os.system('say task completed successfully')
             if platform == 'win32':
                 print (urlopen('http://api.hackertarget.com/dnslookup/?q=' + input('\033[1;91mEnter Domain: \033[1;m')).read())
             opt()
             view()
         if option ==3:
-            os.system('say Enter the Domain or eyepee address')
             dnseval = urlopen("http://tools.bevhost.com/cgi-bin/dnslookup?data=" + input('\033[1;91mEnter Domain: \033[1;m')).read()
             if 'cloudflare' in dnseval:
                 print (colored("Cloudflare Detected","green",attrs=['bold']))
-                os.system('say task completed successfully')
             else:
                 print (colored("Not Protected By cloudflare", "red",attrs=['bold']))
-                os.system('say task completed successfully')
             opt()
             view()
         if option == 4:
-            os.system('say Enter the Domain or eyepee address')
             print (os.system('curl ipinfo.io/'+input('\033[1;91mEnter IP Address: \033[1;m') + '/geo'))
-            os.system('say Task completed successfully')
             opt()
             view()
         if option == 5:
-            os.system('say Enter the Domain or eyepee address')
             print (os.system('curl -v '+' '+input('\033[1;91mEnter Domain or IP Address: \033[1;m')))
-            os.system('say Task completed successfully')
             opt()
             view()
         if option == 6:
-            os.system('say Enter the Domain address')
             ipaddr = input('\033[1;91mEnter Domain: \033[1;m')
             if 'http://' in ipaddr or 'https://' in ipaddr:
                 pass
             else:
                 ipaddr = 'http://' + ipaddr
             print (urlopen(ipaddr + "/robots.txt").read())
-            os.system('say Task completed successfully')
             opt()
             view()
         if option == 7:
-            os.system('say Enter the you are elle')
             links = input('\033[1;91mEnter URL: \033[1;m')
             if 'http://' in links or 'https://' in links:
                 pass
             else:
                 links = 'http://' + links 
             print (urlopen("https://api.hackertarget.com/pagelinks/?q=" + links).read())
-            os.system('say Task completed successfully')
             opt()
             view()
         if option == 8:
-            os.system('say Enter the Domain or eyepee address')
             print (os.system('sudo nmap -O -Pn -p 1-65535 -sS -sV'+ ' ' + input('\033[1;91mEnter Domain or IP Address: \033[1;m')))
-            os.system('say Task completed successfully')
             opt()
             view()
         if option == 9:
-            os.system('say Enter the Domain or eyepee address')
             print (os.system("traceroute" +' '+ input('\033[1;91mEnter Domain or IP Address: \033[1;m')))
-            os.system('say Task completed successfully')
             opt()
             view()
         if option == 10:
-            os.system('say Enter the Domain or eyepee address')
             print(os.system('python goldeneye.py '+input('\033[1;91mEnter Domain or IP Address: \033[1;m')+' -w 50'))
-            os.system('say Task completed successfully')
             opt()
             view()
         if option == 11:
