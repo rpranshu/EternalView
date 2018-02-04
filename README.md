@@ -18,7 +18,7 @@
 
 ## Prerequisites:
 
-  - > [Python](https://www.python.org/downloads)
+  - > [Python3](https://www.python.org/downloads/release/python-364/)
   - > A linux/unix based system
   - > [Nmap](https://nmap.org/download.html)
  
