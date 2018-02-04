@@ -33,7 +33,7 @@
   2. Run
   -in terminal
   ```
-  python eternalview.py
+  python3 eternalview.py
   ```
   
 ## Features:
