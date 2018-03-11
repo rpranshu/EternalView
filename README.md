@@ -1,4 +1,4 @@
-# EternalView [![GitHub release](https://img.shields.io/badge/Built--With-Swag-green.svg?style=flat-square?&colorA=e76b36&?&colorB=d55b33)]()
+# EternalView [![GitHub release](https://img.shields.io/badge/Built--With-<3-green.svg?style=flat-square?&colorA=e76b36&?&colorB=d55b33)]()
 
 **EternalView is an all in one basic information gathering tool**
 
