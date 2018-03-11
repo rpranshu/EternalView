@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 '''
-1. Make sure to update your python framework before running
+1. Make sure to update your python framework before running this tool!
 2. Make sure you have NMAP installed
 3. Make sure you have the latest metasploit framework installed
 4. Make sure you have necessary permissions from the web-admin/sysadmin to perform different tests
