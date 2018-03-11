@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 '''
 1. Make sure to update your python framework before running this tool!
-2. Make sure you have NMAP installed
-3. Make sure you have the latest metasploit framework installed
-4. Make sure you have necessary permissions from the web-admin/sysadmin to perform different tests
-5. Make sure to use some common sense!
+2. Make sure you have installed NMAP
+3. Make sure you have installed the latest metasploit framework
+4. Make sure you have the necessary permissions from the web-admin/sysadmin to perform the DOS test!
+5. Make sure to use some common sense! <-- most important step, no kidding!
 '''
 # -*- coding: utf-8 -*-
 import os
