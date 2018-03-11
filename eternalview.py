@@ -13,7 +13,7 @@ from sys import platform
 from termcolor import colored
 from urllib.request import urlopen
 os.system("resize -s 29 85") #Resize the window (looks cool!)
-print (colored('                 -= Built with Swag 😎 by PRANSHU RANAKOTI  ©2018 =-                     ','red',attrs=['bold']))
+print (colored('                 -= Built with <3 by PRANSHU RANAKOTI  ©2018 =-                     ','red',attrs=['bold']))
 def eternal():
     print (colored('   ▄████████     ███        ▄████████    ▄████████ ███▄▄▄▄      ▄████████   ▄█      ' , 'red'))
     print (colored('  ███    ███ ▀█████████▄   ███    ███   ███    ███ ███▀▀▀██▄   ███    ███  ███      ' , 'red'))
