@@ -18,9 +18,11 @@
 
 ## Prerequisites:
 
-  - > [Python3](https://www.python.org/downloads/release/python-364/)
-  - > A linux/unix based system
-  - > [Nmap](https://nmap.org/download.html)
+  -  [Python3](https://www.python.org/downloads/release/python-364/)
+  -  A linux/unix based system
+  -  [Nmap](https://nmap.org/download.html)
+  -  [Metasploit framework](https://metasploit.help.rapid7.com/docs/installing-the-metasploit-framework)
+  -  [Autopwn™](https://github.com/rpranshu/Autopwn/releases/tag/2)
  
  ## How to install: 
  1. Download
