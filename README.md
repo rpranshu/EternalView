@@ -12,9 +12,7 @@
 
 
 # Update:  [![GitHub release](https://img.shields.io/badge/Release-v2-green.svg?&colorA=024a70&?&colorB=0779b5)]()
-> **Golden Eye HTTP DOS** script is now integrated
-- *Python3* alternative is now live!
-- **Optimised** the code in **python3**
+**CLI tool, made in BASH <3**
 
 ## Prerequisites:
 
