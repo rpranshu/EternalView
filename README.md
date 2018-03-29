@@ -16,8 +16,8 @@
 
 ## Prerequisites:
 
-  -  [Python3](https://www.python.org/downloads/release/python-364/)
-  -  A linux/unix based system
+  -  BASH
+  -  If you are in Windows, ![Follow this guide](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) to get BASH
   -  [Nmap](https://nmap.org/download.html)
   -  [Metasploit framework](https://metasploit.help.rapid7.com/docs/installing-the-metasploit-framework)
   -  [Autopwn™](https://github.com/rpranshu/Autopwn/releases/tag/2)
