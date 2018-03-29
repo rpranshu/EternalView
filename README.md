@@ -33,7 +33,8 @@
   2. Run
   -in terminal
   ```
-  python3 eternalview.py
+  chmod +x EternalView
+  ./EternalView
   ```
   
 ## Features:
