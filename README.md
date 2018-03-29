@@ -50,7 +50,6 @@
   <tr><td>Associated Links</td><td>Prints the list of all accessible pages of a website</td></tr>
   <tr><td>NMAP port scanner</td><td>Performs an extensive port scan on a given website or ip address</td></tr>
   <tr><td>Traceroute</td><td>Prints the route and measures the transit delays of packets across a given web/IP address</td></tr>
-  <tr><td>HTTP Dos Test</td><td>A stress test on an HTTP website to see whether it can withstand the traffic load</td></tr>
   <tr><td>Autopwn™</td><td>A simple bash based metasploit automation tool! With just a few clicks, own any android or windows device!!</td></tr>
 </table>
   
