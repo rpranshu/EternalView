@@ -33,8 +33,8 @@
   2. Run
   -in terminal
   ```
-  chmod +x EternalView
-  ./EternalView
+  chmod +x EternalView.sh
+  ./EternalView.sh
   ```
   
 ## Features:
