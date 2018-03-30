@@ -3,7 +3,7 @@
 **EternalView is an all in one basic information gathering tool**
 
 
-![eternalview in action](https://raw.githubusercontent.com/rpranshu/EternalView/master/eternal.gif)
+![eternalview in action](https://raw.githubusercontent.com/rpranshu/HTML-Website1/master/eternal.gif)
 **EternalView in action**
 
 # CAUTION:
