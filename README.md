@@ -13,12 +13,14 @@
 
 # Update:  [![GitHub release](https://img.shields.io/badge/Release-v2-green.svg?&colorA=024a70&?&colorB=0779b5)]()
 **CLI tool, made in BASH <3**
+### WAF/IDS/IPS detection is live!!!
 
 ## Dependencies:
 
   -  BASH
   -  If you are in Windows, [Follow this guide](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) to get BASH
   -  Wget
+  -  Whois
   -  [Nmap](https://nmap.org/download.html)
   -  [Metasploit framework](https://metasploit.help.rapid7.com/docs/installing-the-metasploit-framework)
   -  [Autopwn™](https://github.com/rpranshu/Autopwn/releases/tag/2)
