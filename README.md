@@ -1,4 +1,4 @@
-# EternalView [![GitHub release](https://img.shields.io/badge/Built--With-<3-green.svg?style=flat-square?&colorA=e76b36&?&colorB=d55b33)]()
+# EternalView [![GitHub release](https://img.shields.io/badge/Built--With-<3-green.svg?style=flat-square?&colorA=e76b36&?&colorB=d55b33)]() [![Support](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/ping)
 
 **EternalView is an all in one basic information gathering tool**
 
@@ -39,7 +39,9 @@
   chmod +x EternalView.sh
   ./EternalView.sh
   ```
-  
+# Donate
+Donate generously! [![Support](https://www.buymeacoffee.com/assets/img/custom_images/white_img.png)](https://www.buymeacoffee.com/rpranshu)
+
 ## Features:
 <table border="5" align=center>
   <tr><th>Feature</th><th align=center>Explanation</th></tr>
