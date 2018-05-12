@@ -1,4 +1,4 @@
-# EternalView [![GitHub release](https://img.shields.io/badge/Built--With-<3-green.svg?style=flat-square?&colorA=e76b36&?&colorB=d55b33)]() [![Support](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/ping)
+# EternalView [![GitHub release](https://img.shields.io/badge/Built--With-<3-green.svg?style=flat-square?&colorA=e76b36&?&colorB=d55b33)]() [![Support](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/rpranshu)
 
 **EternalView is an all in one basic information gathering tool**
 
