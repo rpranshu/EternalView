@@ -1,6 +1,6 @@
 # EternalView [![GitHub release](https://img.shields.io/badge/Built--With-<3-green.svg?style=flat-square?&colorA=e76b36&?&colorB=d55b33)]() [![Support](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/rpranshu)
 
-**EternalView is an all in one basic information gathering tool**
+**EternalView is an all in one basic information gathering CLI tool made purely in BASH**
 
 
 ![eternalview in action](https://raw.githubusercontent.com/rpranshu/HTML-Website1/master/eternal.gif)
@@ -13,8 +13,8 @@
 
 
 # Update:  [![GitHub release](https://img.shields.io/badge/Release-v2-green.svg?&colorA=024a70&?&colorB=0779b5)]()
-**CLI tool, made in BASH <3**
-### WAF/IDS/IPS detection is live!!!
+
+### Cloudflare detection is live!!!
 
 ## Dependencies:
 
@@ -57,7 +57,6 @@ Donate generously! [![Support](https://www.buymeacoffee.com/assets/img/custom_im
   <tr><td>Traceroute</td><td>Prints the route and measures the transit delays of packets across a given web/IP address</td></tr>
   <tr><td>Autopwn™</td><td>A simple bash based metasploit automation tool! With just a few clicks, own any android or windows device!!</td></tr>
 </table>
-  
+
 ## Future updates:
  - Support for windows<br>
- - Firewall detection and evasion<br>
