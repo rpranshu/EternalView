@@ -32,8 +32,6 @@
   ``` 
   git clone https://github.com/rpranshu/EternalView.git
   ```
-  OR
-  - [Download directly as zip](https://github.com/rpranshu/EternalView/archive/master.zip)
   2. Run
   -in terminal
   ```
