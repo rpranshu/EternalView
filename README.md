@@ -19,7 +19,7 @@
 ## Dependencies:
 
   -  BASH
-  -  If you are in Windows, [Follow this guide](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) to get BASH
+  -  If you are using Windows,[Install UBUNTU Subsystem on Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
   -  Wget
   -  Whois
   -  [Nmap](https://nmap.org/download.html)
