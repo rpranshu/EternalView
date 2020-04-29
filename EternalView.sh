@@ -4,32 +4,38 @@ clear
 banner(){
 	tput setaf 208; tput bold
 	echo -n '                      ';
-	echo '-= Built with <3 by PRANSHU RANAKOTI  ©2018 =-' ;
+	echo '     -= Built with <3 by PRANSHU RANAKOTI  ©2018 =-' ;
 	tput setaf 48;
-	echo $'\n███████╗████████╗███████╗██████╗ ███╗   ██╗ █████╗ ██╗    ██╗   ██╗██╗███████╗██╗    ██╗\n██╔════╝╚══██╔══╝██╔════╝██╔══██╗████╗  ██║██╔══██╗██║    ██║   ██║██║██╔════╝██║    ██║\n█████╗     ██║   █████╗  ██████╔╝██╔██╗ ██║███████║██║    ██║   ██║██║█████╗  ██║ █╗ ██║\n██╔══╝     ██║   ██╔══╝  ██╔══██╗██║╚██╗██║██╔══██║██║    ╚██╗ ██╔╝██║██╔══╝  ██║███╗██║\n███████╗   ██║   ███████╗██║  ██║██║ ╚████║██║  ██║███████╗╚████╔╝ ██║███████╗╚███╔███╔╝\n╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝ ╚═══╝  ╚═╝╚══════╝ ╚══╝╚══╝\n';
+	echo $'\n
+	███████╗████████╗███████╗██████╗ ███╗   ██╗ █████╗ ██╗    ██╗   ██╗██╗███████╗██╗    ██╗
+	██╔════╝╚══██╔══╝██╔════╝██╔══██╗████╗  ██║██╔══██╗██║    ██║   ██║██║██╔════╝██║    ██║
+	█████╗     ██║   █████╗  ██████╔╝██╔██╗ ██║███████║██║    ██║   ██║██║█████╗  ██║ █╗ ██║
+	██╔══╝     ██║   ██╔══╝  ██╔══██╗██║╚██╗██║██╔══██║██║    ╚██╗ ██╔╝██║██╔══╝  ██║███╗██║
+	███████╗   ██║   ███████╗██║  ██║██║ ╚████║██║  ██║███████╗╚████╔╝ ██║███████╗╚███╔███╔╝
+	╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝ ╚═══╝  ╚═╝╚══════╝ ╚══╝╚══╝\n';
 	tput sgr0;
 	tput setaf 50;
 	echo -en '          ';
-	echo $'Welcome to EternalView™, the all-seeing ᒡ◯ᵔ◯ᒢ information gathering tool!\n' ;
-	tput setaf 50;echo -en '**************';
-	tput setaf 48;echo -en 'MENU';
-	tput setaf 50;echo '***************';
-	tput setaf 50;echo -en '*';tput setaf 154;             echo -en '  1. Whois information       ';
-	tput setaf 50;echo '  *';echo -en '*';tput setaf 197;echo -en '  2. DNS Lookup              ';
-	tput setaf 50;echo '  *';echo -en '*';tput setaf 3;  echo -en '  3. Web Technology Detection';
-	tput setaf 50;echo '  *';echo -en '*';tput setaf 51; echo -en '  4. IP Locator              ';
-	tput setaf 50;echo '  *';echo -en '*';tput setaf 33; echo -en '  5. NMAP                    ';
-	tput setaf 50;echo '  *';echo -en '*';tput setaf 208;echo -en '  6. Cloudflare detection    ';
-	tput setaf 50;echo '  *';echo -en '*';tput setaf 118;echo -en '  7. Robots.txt enumeration  ';
-	tput setaf 50;echo '  *';echo -en '*';tput setaf 248;echo -en '  8. WAF/IDS/IPS detection   ';
-	tput setaf 50;echo '  *';echo -en '*';tput setaf 105;echo -en '  9. Extract HREF            ';
+	echo $'Welcome to EternalView™, the omniscient ᒡ◯ᵔ◯ᒢ information gathering tool!\n' ;
+	tput setaf 50;echo -en                                  '**************';
+	tput setaf 48;echo -en                                                 'MENU';
+	tput setaf 50;echo                                                          '***************';
+	tput setaf 50;echo -en '*';tput setaf 154;           echo -en ' 1.  Whois information       ';
+	tput setaf 50;echo '  *';echo -en '*';tput setaf 197;echo -en ' 2.  DNS Lookup              ';
+	tput setaf 50;echo '  *';echo -en '*';tput setaf 3;  echo -en ' 3.  Web Technology Detection';
+	tput setaf 50;echo '  *';echo -en '*';tput setaf 51; echo -en ' 4.  IP Locator              ';
+	tput setaf 50;echo '  *';echo -en '*';tput setaf 33; echo -en ' 5.  NMAP                    ';
+	tput setaf 50;echo '  *';echo -en '*';tput setaf 208;echo -en ' 6.  Cloudflare detection    ';
+	tput setaf 50;echo '  *';echo -en '*';tput setaf 118;echo -en ' 7.  Robots.txt enumeration  ';
+	tput setaf 50;echo '  *';echo -en '*';tput setaf 248;echo -en ' 8.  WAF/IDS/IPS detection   ';
+	tput setaf 50;echo '  *';echo -en '*';tput setaf 105;echo -en ' 9.  Extract embedded URL/URI';
 	tput setaf 50;echo '  *';echo -en '*';tput setaf 10; echo -en ' 10. HTTP Header             ';
 	tput setaf 50;echo '  *';echo -en '*';tput setaf 9;  echo -en ' 11. Traceroute              ';
 	tput setaf 50;echo '  *';echo -en '*';tput setaf 11; echo -en ' 12. AutoPwn™                ';
 	tput setaf 50;echo '  *';echo -en '*';tput setaf 12; echo -en ' 13. Reload                  ';
 	tput setaf 50;echo '  *';echo -en '*';tput setaf 1;  echo -en ' 14. exit                    ';
-	tput setaf 50;echo -en '  *';echo $'\n*********************************';
-	tput setaf 50;echo -en "What would you like to do? ";
+	tput setaf 50;echo -en '  *';echo                      $'\n*********************************';
+	tput setaf 50;echo -en "Please choose an option: ";
 	tput sgr0;
 }
 banner
@@ -54,8 +60,7 @@ then tput setaf 197;
 echo -en "Enter the website or IP address: ";
 tput setaf 50;
 read site;
-tput sgr0;
-dig  $site;
+tput sgr0;dig  $site;
 tput smso;
  tput blink;
 tput setaf 1;
@@ -86,7 +91,7 @@ clear
  then tput setaf 51;
 echo -en "Enter the IP address: ";
 read ip;
-curl ipinfo.io/$ip;
+curl ipinfo.io/$ip | grep -v "readme";
 tput smso;
  tput blink;
 tput setaf 1;
@@ -136,14 +141,14 @@ read scan;
 	tput sgr0;
 	read key;
 	clear
-	./EternalView.sh 
+	./EternalView.sh
  	fi;
 elif [[ opt -eq '6' ]]; #CLOUDFLARE DETECTION
 then tput setaf 208;
 echo -en "Enter the website or the IP address: ";
 read site;
-a=$(dig $site | grep -E 'cloudflare|103.21|103.22|104.16|104|103.3|104.1|108.162.|131.0|141.101|162.15|172.6|173.245|188.114|190.93.|197.234.|198.41')
 ip=$(ping -c1 $site | grep -Eo '[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9][0-9]' | head -1)
+a=$(dig $site | grep -E 'cloudflare|103.21|103.22|104.16|104|103.3|104.1|108.162.|131.0|141.101|162.15|172.6|173.245|188.114|190.93.|197.234.|198.41')
 if [[ $? -eq 0 ]]; then
 	echo "Runs on CF"
 	echo "the IP is $ip"
@@ -163,10 +168,9 @@ elif [[ opt -eq '7' ]]; # ROBOTS.TXT ENUMERATION
 then tput setaf 118;
 echo -en "Enter the website address (DNS only): ";
 read site;
-robo="/robots.txt";
-curl $site$robo;
+wget --user-agent="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)" -O - $site/robots.txt --quiet;
 tput smso;
- tput blink;
+tput blink;
 tput setaf 1;
 tput bold;
 echo "Press any key to continue";
@@ -174,12 +178,25 @@ tput sgr0;
 read key;
 clear
 ./EternalView.sh;
-elif [[ opt -eq '8' ]]; # WAF/IDS/IPS DETECTION 
+elif [[ opt -eq '8' ]]; # WAF/IDS/IPS DETECTION
 then tput setaf 190;
+if ! [ -x "$(command -v wafw00f)" ]; then
+	echo 'Error: wafw00f not found, installing now....' >&2
+	if ["darwin" == *$OSTYPE* ];then
+		git clone https://github.com/EnableSecurity/wafw00f.git
+		cd wafw00f
+		python3 setup.py build
+		python3 setup.py install
+		cd ..
+		rm -rf wafw00f
+	else
+		sudo apt-get install wafw00f
+	fi
+fi
+	#statements
 echo -en "Enter the website or IP address: ";
 read site;
-nmap -p80 --script http-waf-detect $site | grep "waf" ;
-echo "Payload used : <script>alert(document.cookie)</script>";
+wafw00f $site
 tput smso;
 tput blink;
 tput setaf 1;
@@ -189,11 +206,14 @@ tput sgr0;
 read key;
 clear
 ./EternalView.sh;
- elif [[ opt -eq '9' ]]; # EXTRACT HREF
- then tput setaf 7;
+elif [[ opt -eq '9' ]]; # EXTRACT embedded URLs/URIs
+ then tput setaf 105;
 echo -en "Enter the website or IP address: ";
 read site;
-curl https://api.hackertarget.com/pagelinks/?q=$site;
+tput setaf 51
+echo $'Following URLs were found embedded in the web page: \n'
+tput setaf 105
+wget --user-agent="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)" -O - $site --quiet | grep -io '<a href=['"'"'"][^"'"'"']*['"'"'"]' |   sed -e 's/^<a href=["'"'"']//' -e 's/["'"'"']$//' | grep -v "#" | grep http
 tput smso;
  tput blink;
 tput setaf 1;
@@ -233,9 +253,14 @@ clear
 ./EternalView.sh;
  elif [[ opt -eq '12' ]]; #AUTOPWN
  then tput setaf 12;
- echo "Make sure that Autopwn is in the same folder";
- chmod +x Autopwn.sh;
-./Autopwn.sh;
+ if ! [ -x "$(command -v autopwn)" ]; then
+ 	echo 'Error: AutoPwn not found, installing now....' >&2
+	git clone https://github.com/rpranshu/autopwn.git
+	chmod +x autopwn/Autopwn.sh
+	mv autopwn/Autopwn.sh /usr/local/bin/autopwn
+	rm -rf autopwn
+ fi
+ autopwn
 clear
 ./EternalView.sh;
  elif [[ opt -eq '13' ]]; #RELOAD
