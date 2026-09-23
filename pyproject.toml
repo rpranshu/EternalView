@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eternalview"
+version = "3.0.0"
+description = "Authorized, defensive web security posture checks"
+requires-python = ">=3.9"
+
+[project.scripts]
+eternalview = "eternalview.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
